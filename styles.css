@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+header .icon {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+
+        header .icon img {
+            width: 40px;
+            height:40px;
+        }
+ header .logo {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+
+        header .logo img {
+            width: 100px;
+            height: auto;
+        }
+
+header {
+    background: url('https://virtualbackgrounds.site/wp-content/uploads/2021/02/womens-clothing-store.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+  justify-content:center;
+  align-items:center;
+    text-align:center;
+    
+}
+
+header .topic h1 {
+   font-family:"Sans-Serif";
+    font-size:3em;
+    margin-bottom:500px;
+    color:black;
+}
+
+header .topic p {
+margin-top:150px;
+    font-size: 1.5em;
+    color:red;
+}
+
+section {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.about {
+    background: #f4f4f4;
+}
+
+.products .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.products .product-item {
+    background: white;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 300px;
+    
+    text-align: center;
+}
+
+.products .product-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    
+}
+
+.contact {
+    background: #f4f4f4;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
